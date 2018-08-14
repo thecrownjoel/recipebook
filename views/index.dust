@@ -2,7 +2,21 @@
 
 {<body}
     {#recipes}
-        {name}
+        <div class="card">
+            <div class="card-body">
+                   
+                <h4> {name} <button class="btn btn-primary float-right" type="button" data-toggle="collapse" href="#recipe_{id}" aria-expanded="false" aria-controls="recipe_{id}">View</button> </h4>
+            
+                    <div class="collapse" id="recipe_{id}">
+                            TEST
+                    </div>
+            
+                    
+            </div>
+            
+        </div>
+
+        
     {/recipes}
     
 {/body}

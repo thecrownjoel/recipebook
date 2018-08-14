@@ -34,6 +34,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 const pool = new pg.Pool(config);
 
 app.get('/', (req, res, next) => {
+    
     pool.connect(function(err, client, done) {
         if(err) {
             return console.error('error fetching client from pool', err);
