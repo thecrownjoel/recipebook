@@ -1,0 +1,8 @@
+{>"layout" /}
+
+{<body}
+    {#recipes}
+        {name}
+    {/recipes}
+    
+{/body}
